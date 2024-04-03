@@ -1,0 +1,133 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-desktop.png",
+        "test": "..\\bitmaps_test\\20240401-163045\\hero-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-desktop.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.4348958333333333,
+          "misMatchPercentage": "0.43",
+          "analysisTime": 59
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-tablet.png",
+        "test": "..\\bitmaps_test\\20240401-163045\\hero-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-tablet.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 17.972341954022987,
+          "misMatchPercentage": "17.97",
+          "analysisTime": 116
+        },
+        "diffImage": "..\\bitmaps_test\\20240401-163045\\failed_diff_hero-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-mobile.png",
+        "test": "..\\bitmaps_test\\20240401-163045\\hero-mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-mobile.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 4,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 30.56,
+          "misMatchPercentage": "30.56",
+          "analysisTime": 82
+        },
+        "diffImage": "..\\bitmaps_test\\20240401-163045\\failed_diff_hero-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240401-163045\\hero-overflow-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-overflow-desktop.png",
+        "label": "hero-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.692925347222222,
+          "misMatchPercentage": "1.69",
+          "analysisTime": 61
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\hero-underflow-tablet.png",
+        "test": "..\\bitmaps_test\\20240401-163045\\hero-underflow-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-underflow-tablet.png",
+        "label": "hero-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 30.00906179617117,
+          "misMatchPercentage": "30.01",
+          "analysisTime": 194
+        },
+        "diffImage": "..\\bitmaps_test\\20240401-163045\\failed_diff_hero-underflow-tablet.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_11.png",
+        "test": "..\\bitmaps_test\\20240402-144821\\accordeon_11.png",
+        "selector": "document",
+        "fileName": "accordeon_11.png",
+        "label": "accordeon 1.1",
+        "misMatchThreshold": 4,
+        "url": "file://E:\\test\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.7994145199063232,
+          "misMatchPercentage": "1.80",
+          "analysisTime": 35
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_12.png",
+        "test": "..\\bitmaps_test\\20240402-144821\\accordeon_12.png",
+        "selector": "document",
+        "fileName": "accordeon_12.png",
+        "label": "accordeon 1.2",
+        "misMatchThreshold": 4,
+        "url": "file://E:\\test\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.674824355971897,
+          "misMatchPercentage": "1.67",
+          "analysisTime": 33
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_13.png",
+        "test": "..\\bitmaps_test\\20240402-144821\\accordeon_13.png",
+        "selector": "document",
+        "fileName": "accordeon_13.png",
+        "label": "accordeon 1.3",
+        "misMatchThreshold": 4,
+        "url": "file://E:\\test\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.7274004683840751,
+          "misMatchPercentage": "1.73",
+          "analysisTime": 34
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

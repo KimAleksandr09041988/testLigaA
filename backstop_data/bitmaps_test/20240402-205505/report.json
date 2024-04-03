@@ -1,0 +1,126 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\form-validation_11.png",
+        "test": "..\\bitmaps_test\\20240402-205505\\form-validation_11.png",
+        "selector": ".phones-group",
+        "fileName": "form-validation_11.png",
+        "label": "form-validation 1.1",
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-js\\component-2\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.896380651708197,
+          "misMatchPercentage": "0.90",
+          "analysisTime": 13
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\form-validation_12.png",
+        "test": "..\\bitmaps_test\\20240402-205505\\form-validation_12.png",
+        "selector": ".phones-group",
+        "fileName": "form-validation_12.png",
+        "label": "form-validation 1.2",
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-js\\component-2\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8772127635584621,
+          "misMatchPercentage": "0.88",
+          "analysisTime": 13
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\form-validation_13.png",
+        "test": "..\\bitmaps_test\\20240402-205505\\form-validation_13.png",
+        "selector": ".phones-group",
+        "fileName": "form-validation_13.png",
+        "label": "form-validation 1.3",
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-js\\component-2\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 26.002367797947905,
+          "misMatchPercentage": "26.00",
+          "analysisTime": 16
+        },
+        "diffImage": "..\\bitmaps_test\\20240402-205505\\failed_diff_form-validation_13.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\form-validation_14.png",
+        "test": "..\\bitmaps_test\\20240402-205505\\form-validation_14.png",
+        "selector": ".phones-group",
+        "fileName": "form-validation_14.png",
+        "label": "form-validation 1.4",
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-js\\component-2\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9014545044537152,
+          "misMatchPercentage": "0.90",
+          "analysisTime": 15
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-2\\reference\\form-validation_15.png",
+        "test": "..\\bitmaps_test\\20240402-205505\\form-validation_15.png",
+        "selector": ".phones-group",
+        "fileName": "form-validation_15.png",
+        "label": "form-validation 1.5",
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-js\\component-2\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8879242304656668,
+          "misMatchPercentage": "0.89",
+          "analysisTime": 14
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-desktop.png",
+        "test": "..\\bitmaps_test\\20240401-193216\\events-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-desktop.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.0011158935118762,
+          "misMatchPercentage": "1.00",
+          "analysisTime": 63
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-mobile.png",
+        "test": "..\\bitmaps_test\\20240401-193216\\events-mobile.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-mobile.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 29.648059542796386,
+          "misMatchPercentage": "29.65",
+          "analysisTime": 64
+        },
+        "diffImage": "..\\bitmaps_test\\20240401-193216\\failed_diff_events-mobile.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-tablet.png",
+        "test": "..\\bitmaps_test\\20240401-193216\\events-tablet.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-tablet.png",
+        "label": "events",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.004736990950226,
+          "misMatchPercentage": "7.00",
+          "analysisTime": 60
+        },
+        "diffImage": "..\\bitmaps_test\\20240401-193216\\failed_diff_events-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-overflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240401-193216\\events-overflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-overflow-desktop.png",
+        "label": "events-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.2953331739199745,
+          "misMatchPercentage": "1.30",
+          "analysisTime": 62
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-htmlcss\\reference\\events-underflow-desktop.png",
+        "test": "..\\bitmaps_test\\20240401-193216\\events-underflow-desktop.png",
+        "selector": "[data-test=\"events\"]",
+        "fileName": "events-underflow-desktop.png",
+        "label": "events-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file://E:\\test\\task-htmlcss\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.6828869759285828,
+          "misMatchPercentage": "0.68",
+          "analysisTime": 55
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}
